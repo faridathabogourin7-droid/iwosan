@@ -18,6 +18,7 @@ function startScanner() {
             }
         },
         (decodedText) => {
+            alert("QR detecte : " + decodedText);
             console.log("Code QR détecté:", decodedText);
 
             let userId = Number(decodedText);
@@ -48,6 +49,7 @@ function afficherInfosVitale(patient) {
     `;
 }
 window.onload = startScanner;
+
 
 
 
