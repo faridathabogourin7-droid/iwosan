@@ -43,5 +43,6 @@ function afficherInfosVitale(patient) {
 }
 window.onload = startScanner;
 
-startScanner();
+
+
 
