@@ -9,7 +9,7 @@ let urgenceDiv = document.getElementById("urgence-info");
 function startScanner() {
     const html5QrCode = new Html5Qrcode("preview");
     html5QrCode.start(
-        { facingMode: "environment" },
+        { facingMode: "user" },
         { fps: 10, 
          qrbox: 250,
         disableFlip: false,
@@ -49,6 +49,7 @@ function afficherInfosVitale(patient) {
     `;
 }
 window.onload = startScanner;
+
 
 
 
