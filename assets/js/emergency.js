@@ -10,7 +10,13 @@ function startScanner() {
     const html5QrCode = new Html5Qrcode("preview");
     html5QrCode.start(
         { facingMode: "environment" },
-        { fps: 10, qrbox: 250 },
+        { fps: 10, 
+         qrbox: 250,
+        disableFlip: false,
+        experimentalFeatures: {
+            useBarCodeDectorIfSupported: true
+            }
+        },
         (decodedText) => {
             console.log("Code QR détecté:", decodedText);
 
@@ -42,6 +48,7 @@ function afficherInfosVitale(patient) {
     `;
 }
 window.onload = startScanner;
+
 
 
 
