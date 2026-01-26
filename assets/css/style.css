@@ -1,6 +1,10 @@
 
 html, body{
  height: 100%;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ flex-direction: column;
 }
  nav ul li a{
     display: block;
@@ -93,8 +97,17 @@ h2{
     margin-bottom: 20px;
 }
 
+main{
+ flex: 1;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 20px;
+}
+
 main section{
     max-width: 800px;
+ max-width: 800px;
     margin: 0 auto;
     padding: 20px;
    background-color: whitesmoke;
@@ -143,6 +156,7 @@ footer {
     border-radius: 5px;
     font-weight: bold;
 }
+
 
 
 
