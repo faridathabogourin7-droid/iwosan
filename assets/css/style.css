@@ -55,7 +55,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     z-index: -1;
-
+display: flex;
 }
 
 body::before{
@@ -117,3 +117,4 @@ footer {
     border-radius: 5px;
     font-weight: bold;
 }
+
