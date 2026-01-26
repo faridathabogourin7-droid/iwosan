@@ -4,6 +4,7 @@ html, body{
  min-height: 100vh;
     background-image: url('../img/carnet.jpg');
     background-size: cover;
+ position: fixed;
     background-position: center center;
     background-repeat: no-repeat;
     z-index: -1;
@@ -144,6 +145,7 @@ footer {
     border-radius: 5px;
     font-weight: bold;
 }
+
 
 
 
