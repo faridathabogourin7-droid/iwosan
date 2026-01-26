@@ -97,13 +97,7 @@ h2{
     margin-bottom: 20px;
 }
 
-main{
 
- display: flex;
- align-items: center;
- justify-content: center;
- padding: 20px;
-}
 
 main section{
     max-width: 800px;
@@ -156,6 +150,7 @@ footer {
     border-radius: 5px;
     font-weight: bold;
 }
+
 
 
 
