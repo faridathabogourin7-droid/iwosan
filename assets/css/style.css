@@ -1,5 +1,7 @@
 
-
+html, body{
+ height: 100%;
+}
  nav ul li a{
     display: block;
    padding: 8px 12px;
@@ -63,6 +65,7 @@ header {
 }
 
 body {
+ min-height: 100vh;
     background-image: url('../img/carnet.jpg');
     background-size: cover;
     background-position: center center;
@@ -140,6 +143,7 @@ footer {
     border-radius: 5px;
     font-weight: bold;
 }
+
 
 
 
