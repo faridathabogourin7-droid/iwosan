@@ -1,3 +1,113 @@
+
+
+ nav ul li a{
+    display: block;
+   
+    color: #000;
+    text-decoration: none;
+}
+ nav ul li a:hover{
+    background-color: black;
+    color: red;
+}
+ nav ul li a.active{
+    display: block;
+    background-color: grey;
+}
+
+header img{
+    height: 100px;
+}
+
+
+
+ nav ul {
+    list-style: none;
+    display: flex;
+    justify-content:right;
+    padding: 0;
+}
+
+ nav ul li {
+    margin: 0 1rem;
+}
+
+ 
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: rgb(0, 191, 255);
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body {
+    background-image: url('../img/carnet.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: -1;
+
+}
+
+body::before{
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.6);
+    pointer-events: none;
+    z-index: -1;
+}
+
+
+
+h2{
+    color: #333;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main section{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+   background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    display: inline-block;
+    padding: 1px 2px;
+    font-size: 16px;
+    color: #fff;
+    background-color: grey;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer {
+   
+    text-align: center;
+
+}
+
+
+
+
+
 .error-box {
     background-color: #ffdddd;
     color: #a30000;
@@ -7,4 +117,3 @@
     border-radius: 5px;
     font-weight: bold;
 }
-
