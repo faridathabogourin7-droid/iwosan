@@ -1,9 +1,8 @@
-
+body { display: flex; flex-direction: column; }
 html, body{
  height: 100%;
  min-height: 100vh;
- display: flex;
- flex-direction: column;
+ 
     background-image: url('../img/carnet.jpg');
     background-size: cover;
     background-position: center center;
@@ -148,6 +147,7 @@ footer {
     border-radius: 5px;
     font-weight: bold;
 }
+
 
 
 
