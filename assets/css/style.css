@@ -85,7 +85,7 @@ body::before{
 h2{
     color: #333;
     text-align: center;
-    font-size: 28px;
+    font-size: 24px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -117,6 +117,16 @@ footer {
 
 }
 
+.qr-box{
+ background-color: black;
+ color:red;
+ padding: 10px;
+ border-radius: 6px;
+ font-weight: bold;
+ text-align: center;
+ margin: 20px auto;
+ max-width: 300px;
+}
 
 
 
@@ -130,5 +140,6 @@ footer {
     border-radius: 5px;
     font-weight: bold;
 }
+
 
 
