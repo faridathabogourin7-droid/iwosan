@@ -70,15 +70,7 @@ header {
     padding-right: 20px;
 }
 
-body {
- min-height: 100vh;
-    background-image: url('../img/carnet.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    z-index: -1;
 
-}
 
 body::before{
     content: "";
@@ -152,6 +144,7 @@ footer {
     border-radius: 5px;
     font-weight: bold;
 }
+
 
 
 
