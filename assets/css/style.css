@@ -2,9 +2,10 @@
 html, body{
  height: 100%;
  min-height: 100vh;
+ display: flex;
+ flex-direction: column;
     background-image: url('../img/carnet.jpg');
     background-size: cover;
- position: fixed;
     background-position: center center;
     background-repeat: no-repeat;
     z-index: -1;
@@ -104,6 +105,8 @@ main section{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+main { flex: 1; /* prend toute la hauteur restante */ display: flex; justify-content: center; align-items: center; padding: 20px; }
+
 .btn {
     display: inline-block;
     padding: 1px 2px;
@@ -145,6 +148,7 @@ footer {
     border-radius: 5px;
     font-weight: bold;
 }
+
 
 
 
