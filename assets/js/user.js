@@ -4,7 +4,10 @@ let userId = parametre.get("id");
 let users = JSON.parse(localStorage.getItem("IWOSAN_users")) || [];
 let utilisateur = users.find(user => user.id === Number(userId));
 let personnalDiv = document.getElementById("personnal");
-
+if (!utilisateur) {
+    personnalDiv.innerHTML = "<p style='color:red;'>Patient introuvable.</p>"; 
+    document.getElementById("qrcode").innerHTML = "";
+    return; }
 personnalDiv.innerHTML = `
     <h3>${utilisateur.nom} ${utilisateur.prenom}</h3>
     <p><strong>Date de naissance :</strong> ${utilisateur.dateDeNaissance}</p>
@@ -24,3 +27,4 @@ document.getElementById("qrcode").innerHTML = `
 function retourdashboard() {
     window.location.href = "dashboard.html";
 }
+
