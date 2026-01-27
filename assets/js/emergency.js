@@ -20,7 +20,7 @@ function startScanner() {
         (decodedText) => {
             alert("QR detecte : " + decodedText);
             console.log("Code QR détecté:", decodedText);
-
+window.location.href = "user.html?id=" + decodedText;
             let userId = Number(decodedText);
 
             let patient = users.find(user => user.id === userId);
@@ -49,6 +49,11 @@ function afficherInfosVitale(patient) {
     `;
 }
 window.onload = startScanner;
+
+
+
+
+
 
 
 
