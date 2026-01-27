@@ -1,6 +1,5 @@
 
 html, body{
- height: 100%;
  min-height: 100vh;
  display: flex;
  flex-direction: column;
@@ -9,6 +8,7 @@ html, body{
     background-position: center center;
     background-repeat: no-repeat;
     z-index: -1;
+ 
 }
  nav ul li a{
     display: block;
@@ -154,6 +154,7 @@ footer {
     border-radius: 5px;
     font-weight: bold;
 }
+
 
 
 
