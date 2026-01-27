@@ -104,7 +104,13 @@ main section{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-main { flex: 1; /* prend toute la hauteur restante */ display: flex; justify-content: center; align-items: center; padding: 20px; }
+main { flex: 1; /* prend toute la hauteur restante */ 
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+      padding: 20px;
+     flex-direction: column;
+     }
 
 .btn {
     display: inline-block;
@@ -147,6 +153,7 @@ footer {
     border-radius: 5px;
     font-weight: bold;
 }
+
 
 
 
