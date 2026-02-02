@@ -57,7 +57,7 @@ iwosan/
 │   └── js/    → scripts JavaScript
 │
 ├── index.html          → page d’accueil
-├── inscription.html    → ajout d’un patient
+├── register.html    → ajout d’un patient
 ├── dashboard.html      → liste des patients
 ├── urgence.html        → scanner QR
 └── user.html           → fiche patient
