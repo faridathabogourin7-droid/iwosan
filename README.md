@@ -47,7 +47,7 @@ git clone https://github.com/faridathabogourin7-droid/iwosan.git
 ---
 ## V.  Structure du projet
 Code
-
+```
 iwosan/
 │
 ├── README.md
@@ -59,9 +59,9 @@ iwosan/
 ├── index.html          → page d’accueil
 ├── register.html    → ajout d’un patient
 ├── dashboard.html      → liste des patients
-├── urgence.html        → scanner QR
+├── emergency.html        → scanner QR
 └── user.html           → fiche patient
-
+```
 ---
 ## VI.  Auteur
 Projet développé par Faridath ABOGOURIN.
