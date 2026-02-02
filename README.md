@@ -1,43 +1,52 @@
-# iwosan
+# IWOSAN
+
 Application web permettant de gérer les informations médicales des patients et d’accéder rapidement à leurs données via un QR Code.
-I- Description
-IWOSAN est une application Web médical qui permet: 
-d’enregistrer les informations d’un patient
 
-de générer un QR Code unique lié à son dossier
+---
 
-de scanner ce QR Code afin d’accéder rapidement à ses informations vitales en cas d’urgence
-II- Fonctionnalité 
-Inscription et gestion des patients
+## I.  Description
 
-Génération automatique d’un QR Code
+IWOSAN est une application Web médicale qui permet :
 
-Scanner intégré (Html5Qrcode)
+- d’enregistrer les informations d’un patient  
+- de générer un QR Code unique lié à son dossier  
+- de scanner ce QR Code afin d’accéder rapidement à ses informations vitales en cas d’urgence  
 
-Affichage des informations vitales
+---
 
-Tableau de bord des utilisateurs
+## II. Fonctionnalités
 
-Stockage local via LocalStorage
+- Inscription et gestion des patients  
+- Génération automatique d’un QR Code  
+- Scanner intégré (Html5Qrcode)  
+- Affichage des informations vitales  
+- Tableau de bord des utilisateurs  
+- Stockage local via LocalStorage  
 
-III- Technologie utilisées
-HTML5 / CSS3 / JavaScript
+---
 
-LocalStorage
+## III. Technologies utilisées
 
-Html5Qrcode (scanner QR)
+- HTML5 / CSS3 / JavaScript  
+- LocalStorage  
+- Html5Qrcode (scanner QR)  
+- GitHub Pages pour l’hébergement  
 
-GitHub Pages pour l’hébergement
+---
 
+## IV.  Installation
 
-IV- Installation  
-1.Cloner le projet :
+1. Cloner le projet :
 
-bash
+```bash
 git clone https://github.com/faridathabogourin7-droid/iwosan.git
-2.Ouvrir le fichier index.html dans un navigateur.
- 
- V- Structure du projet
+```
+
+2. Ouvrir le fichier index.html dans un navigateur.
+
+---
+## V.  Structure du projet
+Code
 
 iwosan/
 │
@@ -53,5 +62,9 @@ iwosan/
 ├── urgence.html        → scanner QR
 └── user.html           → fiche patient
 
-VI- Auteur
+---
+## VI.  Auteur
 Projet développé par Faridath ABOGOURIN.
+
+
+
